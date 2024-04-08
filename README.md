@@ -49,7 +49,11 @@ ENV=dev
 ## Changes made/Reccomended changes to DB
 - Updated the TEXT data type for the codes(dest_code & origin_code) to 5 character data types. This will help save a lot of space on DB & betters performance. 
 - Relationships exist but are not enforced by foreign key constraints. Like, ports & prices table. It will be useful for data integrity purposes.
- 
+
+## Remark
+
+- The task duration was close to 7 hours. The main issue I faced was machine related issue and not coding problems. It took a good 4 hours to resolve the issue with my machine. It was a virtual environment and dependency issue. Mainly related to versions of libraries. 
+
 ## Authors
 
 - [@bisrat306](https://www.github.com/bisrat306)
